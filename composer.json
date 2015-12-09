@@ -1,5 +1,5 @@
 {
-	"name": "ontic/zend-module-skeleton",
+	"name": "ontic/zend-module-base",
 	"description": "This module provides a base set of classes which other modules can share and inherit.",
 	"keywords": ["zf2", "zend", "module", "ontic", "base"],
 	"homepage": "https://github.com/ontic/zend-module-base",

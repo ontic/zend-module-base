@@ -1,0 +1,63 @@
+{
+	"name": "ontic/zend-module-skeleton",
+	"description": "This module provides a base set of classes which other modules can share and inherit.",
+	"keywords": ["zf2", "zend", "module", "ontic", "base"],
+	"homepage": "https://github.com/ontic/zend-module-base",
+	"license": "BSD-3-Clause",
+	"type": "library",
+	"authors": [
+		{
+			"name": "Adam Dyson",
+			"email": "adam.dyson@outlook.com",
+			"homepage": "http://adamdyson.com.au",
+			"role": "Developer"
+		}
+	],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require":
+	{
+		"php": ">=5.5",
+		"zendframework/zend-db": "~2.5",
+		"zendframework/zend-i18n": "~2.5",
+		"zendframework/zend-loader": "~2.5",
+		"zendframework/zend-log": "~2.5",
+		"zendframework/zend-modulemanager": "~2.5",
+		"zendframework/zend-mvc": "~2.5",
+		"zendframework/zend-serializer": "~2.5",
+		"zendframework/zend-view": "~2.5"
+	},
+	"require-dev":
+	{
+		"phpunit/phpunit": "~4.8",
+		"squizlabs/php_codesniffer": "~2.4",
+		"satooshi/php-coveralls": "~0.6"
+	},
+	"autoload":
+	{
+		"psr-0":
+		{
+			"OnticBase": "src/"
+		}
+	},
+	"autoload-dev":
+	{
+		"psr-0":
+		{
+			"OnticBaseTest": "tests/"
+		}
+	},
+	"extra":
+	{
+		"branch-alias":
+		{
+			"dev-master": "1.0.x-dev",
+			"dev-develop": "1.1.x-dev"
+		}
+	},
+	"config":
+	{
+		"process-timeout": 900,
+		"preferred-install": "dist"
+	}
+}

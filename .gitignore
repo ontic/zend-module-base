@@ -1,0 +1,16 @@
+# IDE
+/.cache/
+/.externalToolBuilders/
+/.idea/
+/.settings/
+/.buildpath
+/.project
+
+# Composer
+/vendor/
+/composer.lock
+
+# Tests
+/build/
+/phpunit.xml
+/tests/Configuration.php
